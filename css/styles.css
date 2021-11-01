@@ -10,7 +10,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     display: block;
     border-radius: 5px;
 }
@@ -158,11 +158,9 @@ img {
         .sidenav ul {
             display: flex;
         }
-
         .sidenav li {
             flex: 1 0 60px;
         }
-
         .sidenav {
             padding: 0 30px;
         }
@@ -182,6 +180,13 @@ img {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
+
+@media(max-width:600px){
+    .content{
+        grid-template-columns: auto;
+    }
+}
+
 
     .col-wide {
         grid-column: 1/ -1;
@@ -306,6 +311,7 @@ img {
         align-content: start;
         padding: 30px;
         gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 
     /*Footer*/
