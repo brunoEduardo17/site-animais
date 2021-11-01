@@ -1,19 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
 img{
     max-width: 100px;
 }
 body{
-    font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
-}
-
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
+    font-family: 'Vollkorn', Georgia, serif;
 }
 
 /*GRID GERAL*/
